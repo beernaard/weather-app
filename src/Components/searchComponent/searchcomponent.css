@@ -1,0 +1,26 @@
+.searchcomponent-main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.searchcomponent-main input{
+    outline: none;
+    border: none;
+    background-color: #fff;
+    width: 270px;
+    height: 60px;
+    border-radius: 1.9rem;
+    text-indent: 10px;
+    font-size: 15px;
+}
+
+.searchcomponent-main button{
+    outline: none;
+    border: none;
+    background-color: #fff;
+    font-size: 30px;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+}

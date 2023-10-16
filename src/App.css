@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-color: rgb(44, 44, 68);
+}
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 470px;
+  background-image: linear-gradient(to bottom, #004cbe, #5870d0, #8996e0, #b6bef0, #e3e7ff);
+  color: #fff;
+  margin: 100px auto 0; /*center*/
+  border-radius: 20px;
+  padding: 40px 35px;
+} 

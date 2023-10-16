@@ -1,0 +1,45 @@
+.contentbottomcomponent-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.humidity-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.humidity-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.wind-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wind-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.humidity-container img,
+.wind-container img
+{
+    width: 40px;
+    height: 40px;
+}
+
+.humidity-container h4,
+.humidity-container h2,
+.wind-container h4,
+.wind-container h2
+{
+   font-size: 18px;
+   font-weight: 500;
+}
